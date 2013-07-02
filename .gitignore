@@ -1,3 +1,7 @@
+# specific files related to dotspatial
+DotSpatial.Projections/AuthorityCodes/AuthorityCodeToProj4.ds
+DotSpatial.Projections/DeflateStreamUtility.exe
+
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/

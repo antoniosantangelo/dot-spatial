@@ -187,7 +187,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(SolutionDir)SupportFiles\Proj4\bin\proj.dll" "$(TargetDir)" /Y</PostBuildEvent>
+    <!-- <PostBuildEvent>xcopy "$(SolutionDir)SupportFiles\Proj4\bin\proj.dll" "$(TargetDir)" /Y</PostBuildEvent> -->
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
